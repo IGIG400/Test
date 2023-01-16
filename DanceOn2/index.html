@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DanceOn Website</title>
+  <!-- Adds the bootstrap to the project -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Adds link to custom css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Adds link to fonts -->
+  <script src="https://kit.fontawesome.com/b020521bb6.js" crossorigin="anonymous"></script>
+  <!-- Font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;900&family=Satisfy&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="font-awesome-4.7.0/css"> -->
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid title">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a href="" class="navbar-brand">DanceOn</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item nav-link ms-3">
+              <a href="#title" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item nav-link ms-3">
+              <a href="#About" class="nav-link">About Company</a>
+            </li>
+            <li class="nav-item nav-link ms-3">
+              <a onclick="window.location.href = 'contact.html';" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+      <!-- End of Nav Bar -->
+      <!-- Title -->
+
+      <div class="row titleRow">
+        <div class="col-lg-6">
+          <h1 class="heading1">Improve your dance skills with DanceOn!</h1>
+          <a href="DanceOn/DanceOnLauncher.exe" download>
+            <button type="button" class="btn btn-light btn-lg download-button">
+              <i class="fa-solid fa-desktop"></i> <i class="fa-solid fa-download"></i> Download
+            </button>
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/laptop_computer.png" class="titleImage" alt="iphone-mockup">
+        </div>
+      </div>
+      <!-- ADD A video of people instead of image  -->
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="container-fluid" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 features-box">
+          <i class="fa-regular fa-circle-check icons"></i>
+          <!-- <div class="col-md-4 features"> -->
+          <h3 class="feature-heading">Easy to use.</h3>
+          <p class="feature-details">So easy to use, even your dog could do it.</p>
+          <!-- </div> -->
+        </div>
+
+        <div class="col-md-4 features-box">
+          <i class="fa-solid fa-bullseye icons"></i>
+          <h3 class="feature-heading">Elite Clientele</h3>
+          <p class="feature-details">We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="col-md-4 features-box">
+          <i class="fa-solid fa-heart icons"></i>
+          <h3 class="feature-heading">Guaranteed to work.</h3>
+          <p class="feature-details">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+
+      <div class="row feature-row2">
+
+
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Sponsors -->
+
+  <section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid active" data-interval="7000">
+          <h2 class="testimonial-text">Users will find great value in using this application with the ability to learn dances from the comfort of their home!</h2>
+          <img class="testimonial-image" src="images/adam.png" alt="EventSmart Production Logo">
+          <em>Adam Globerson, Phoenix</em>
+        </div>
+        <div class="carousel-item container-fluid" data-interval="7000">
+          <h2 class="testimonial-text">This could be a great way for me to learn new tik tok dances and get feedback on my performance!</h2>
+          <img class="testimonial-image" src="images/grandad.jpeg" alt="pops">
+          <em>Micheal Stanley, Oklahoma City</em>
+        </div>
+        <div class="carousel-item container-fluid" data-interval="7000">
+          <h2 class="testimonial-text">It's important to execute every move, and to watch the details of the choreographer! DanceOn provides an easy way to do both!</h2>
+          <img class="testimonial-image" src="images/adia.jpeg" alt="baddie">
+          <em>Adia Watson, Phoenix</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <h2 class="testimonial-text">Users will find great value in using this application with the ability to learn dances from the comfort of their home!</h2>
+    <img class="sponsors-img"src="images/adam.png" alt="EventSmart Production Logo">
+    <em>Adam Globerson, Phoenix</em> -->
+
+
+
+
+  </section>
+
+
+  <!-- Sponsors -->
+
+  <section id="sponsors">
+    <img class="sponsors-logo" src="images/Sponsors1.png" alt="tc-logo">
+    <img class="sponsors-logo" src="images/Sponsor2.png" alt="tnw-logo">
+    <img class="sponsors-logo" src="images/Sponsor3.jpeg" alt="choreo-summit">
+    <img class="sponsors-logo ape" src="images/ape.jpeg" alt="ape">
+
+  </section>
+
+  <!-- Explanation  -->
+  <div class="explanation">
+    <div class="row">
+      <div class="col-md-6">
+        <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/92Mvt7r14aY" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6 exp-paragraph">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- About Company -->
+  <!-- Picture across in banner
+About us
+paragraph
+then lastly video -->
+  <section class="container-fluid" id="About">
+
+    <h2 class="about-title">Our Company</h2>
+    <img class="asu-image" src="Images/ira-fulton.jpeg" alt="ASU">
+    <p class="about-explanation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="row">
+      <img src="images/SQUAD.jpeg" class="team-img" alt="team">
+    </div>
+    <button type="button" onclick="window.location.href = 'team-members.html';" class="btn btn-info">Learn More</button>
+
+  </section>
+  <!-- Call to Action -->
+
+  <section class="container-fluid" id="cta">
+
+    <h2>Unlock your true potential in dance with DanceOn!</h2>
+    <a href="DanceOn/DanceOnLauncher.exe" download>
+      <button type="button" class="btn btn-light btn-lg download-button">
+        <i class="fa-solid fa-desktop"></i> <i class="fa-solid fa-download"></i> Download
+      </button>
+    </a>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="container-fluid" id="footer">
+
+    <p>© Copyright DanceOn</p>
+    <div class="other-links">
+      <!-- <h4 class="pb-2">Other Links</h4> -->
+
+      <a class="social-link" href=""><i class=" c-icons fa-brands fa-instagram"></i></a>
+
+      <a class="social-link" href="https://www.linkedin.com/in/isaiah-graham/">
+        <i class=" c-icons fa-brands fa-linkedin"></i>
+      </a>
+
+      <a class="social-link" href="mailto:igraham7255@gmail.com"><i class=" c-icons fa-solid fa-envelope"></i></a>
+
+    </div>
+
+  </footer>
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+APPLICATION_NAME=DanceOn!
+DOWNLOAD_URL=https://www.googleapis.com/drive/v3/files/1SfzYDHhe2nJVP8k8nNcmrh_Y5Aden7g8?alt=media&key=AIzaSyDlgg8PRful2wRwCATLOCUN3XRIDcD_P50
+VERSION_URL=https://drive.google.com/uc?export=download&id=1Nw0JOdr0M-WkggdWeEM6DPTd81WIHPC0
+FILE_TO_RUN=DanceOn!.exe
+DOWNLOAD_VERSION_FILE=true
+FORCE_UPDATE=false
